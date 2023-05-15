@@ -26,18 +26,15 @@ a:hover {
 body{
   background-color: gainsboro;
 }
-/* body nav {
-  margin: 0;
-  display: flex;
-}
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+#header1 {
+  width: 32px;
+  padding-left: 0;
+}
+#login-status {
+  text-align: right;
+  padding-right: 0;
+}
 
 h1 {
   font-size: 3.2em;
