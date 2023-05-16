@@ -5,13 +5,24 @@
   text-align: center;
 }
 
+#battles {
+  max-width: fit-content;
+}
+
+#login-status {
+  max-width: fit-content;
+}
+
+#welcome {
+  max-width: fit-content;
+}
+
 .navbar {
   max-height: fit-content;
 }
 
 .nav-item {
   max-height: 2.2em;
-
 }
 
 .card {

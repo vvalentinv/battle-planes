@@ -19,22 +19,28 @@ function Navbar() {
 
   return (
     <ul id="navbar" className="nav nav-pills nav-justified">
-        <li className="nav-item">
-          <a id="header1" className="nav-link" href="#">logo</a>
+        
+        <li id="battles" className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Battles</a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Players waiting to be challenged</a></li>
+            <li><a className="dropdown-item" href="#">Setup a defense</a></li>
+          </ul>
         </li>
-        <li className="nav-item">
-          <a id="header2" className="nav-link" href="#">Some feature</a>
-        </li>
+        
         <li className="nav-item">
           <a id="header3" className="nav-link active" href="#" hidden>some hidden feature</a>
         </li>
         <li className="nav-item">
           <a id="header4" className="nav-link active" href="#" hidden>some hidden feature</a>
         </li>
+        <li id="logo" className="nav-item logo">
+        <img rel="icon"  src="/public/logo-flat.png" width="142" height="30"/>
+        </li>
         <li className="nav-item">
           <a id="header5" className="nav-link active" href="#" hidden>some hidden feature</a>
         </li>
-        <li className="nav-item dropdown">
+        <li id="welcome" className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Welcome username</a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#">Change email address</a></li>
