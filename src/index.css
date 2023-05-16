@@ -27,9 +27,8 @@ body{
   background-color: gainsboro;
 }
 
-#header1 {
-  width: 32px;
-  padding-left: 0;
+#battles {
+  text-align: left;
 }
 #login-status {
   text-align: right;
@@ -42,6 +41,7 @@ h1 {
 }
 
 button {
+  max-width: fit-content;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
