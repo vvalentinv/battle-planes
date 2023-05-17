@@ -16,9 +16,9 @@ const Register = () => {
     <div>
       <form className='form' onSubmit={handleSubmit}>
         <h4>Register</h4>
-        {/* name */}
+        {/* username */}
         <div className='form-row'>
-          <label htmlFor='name' className='form-label'>
+          <label htmlFor='username' className='form-label'>
             username
           </label>
           <input
@@ -44,7 +44,7 @@ const Register = () => {
             onChange={handleChange}
           />
         </div>
-        {/* email */}
+        {/* password */}
         <div className='form-row'>
           <label htmlFor='password' className='form-label'>
             Password
@@ -60,7 +60,7 @@ const Register = () => {
         </div>
 
         <button type='submit' className='btn btn-block'>
-          submit
+          Submit
         </button>
       </form>
     </div>
