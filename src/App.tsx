@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Navbar } from './features/navbar'
 import { Footer } from './features/footer'
+import { GameContainer } from './features/gameContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
-      
+      <GameContainer  />
         
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

@@ -23,7 +23,7 @@ function Navbar() {
         <li id="battles" className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Battles</a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Players waiting to be challenged</a></li>
+            <li><a className="dropdown-item" href="#UnchallengedBattles">Players waiting to be challenged</a></li>
             <li><a className="dropdown-item" href="#">Setup a defense</a></li>
           </ul>
         </li>
