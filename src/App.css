@@ -21,6 +21,10 @@
   max-height: fit-content;
 }
 
+#unchallenged-battles:target {
+  display: block;
+}
+
 .nav-item {
   max-height: 2.2em;
 }
